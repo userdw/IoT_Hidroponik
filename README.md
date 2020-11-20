@@ -5,7 +5,7 @@ IoT Hidroponik merupakan salah satu aplikasi IoT yang diterapkan pada sektor per
 Repositori ini dibuat sebagai pelengkap dari kit IoT Hidroponik. Konfigurasi awal untuk menggunakan IoT Hidroponik adalah sebagai berikut:
 * Unduh software Arduino IDE pada link berikut ```https://www.arduino.cc/en/software```, pilih sesuai dengan OS yang digunakan pada laptop anda.
 
-<div style="text-align:center"><img src="/images/Arduino_download.JPG" height="400" align ="center"/><div/>
+<div style="text-align:center"><img src="/images/Arduino_download.JPG" height="300" align ="center"/><div/>
 
 * Buka software Arduino IDE, lalu pilih menu **File | Preferences** atau dapat juga dengan menekan tombol ```Ctrl``` + ```,``` (tanda baca koma) secara bersamaan pada keyboard.
 * Copy dan paste ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` pada ```Additional Boards Manager URLs```.
