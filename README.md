@@ -23,3 +23,13 @@ Repositori ini dibuat sebagai pelengkap dari kit IoT Hidroponik. Konfigurasi awa
 <img src="https://github.com/userdw/Internet_of_Things_Maker_Kit/blob/master/images/configuration_table.PNG" height="430" align ="center">
 
 * Anda dapat mencoba untuk melakukan upload contoh program yang tersedia pada Arduino IDE untuk memastikan bahwa instalasi dan konfigurasi yang dilakukan sebelumnya telah berhasil.
+
+
+Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang menghubungkan aplikasi Blynk dengan ESP8266:
+1. Unduh dan install aplikasi Blynk pada smartphone yang dapat diunduh pada aplikasi Google Play Store atau App Store,
+2. Buka aplikasi Blynk dan buat sebuah akun baru,
+3. Pilih gambar scan QR-Code dan scan gambar dibawah ini untuk menduplikasi aplikasi monitoring IoT Hidroponik,
+
+<div style="text-align:center"><img src="/images/Clone_blynk_project.jpeg" height="300" align ="center"/><div/>
+
+4. 
