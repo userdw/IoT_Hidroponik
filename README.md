@@ -29,6 +29,7 @@ Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang men
 1. Unduh dan install aplikasi Blynk pada smartphone yang dapat diunduh pada aplikasi Google Play Store atau App Store,
 2. Buka aplikasi Blynk dan buat sebuah akun baru,
 3. Pilih gambar scan QR-Code dan scan gambar dibawah ini untuk menduplikasi aplikasi monitoring IoT Hidroponik,
-<div style="text-align:center"><img src="/images/Clone_blynk_project.jpeg" height="200" align ="center"/><div/>
-
+<p align="center">
+<img src="/images/Clone_blynk_project.jpeg" height="200">
+</p>
 4. 
