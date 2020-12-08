@@ -32,6 +32,7 @@ Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang men
 <p align="center">
 <img src="/images/Clone_blynk_project.jpeg" height="200">
 </p>
+
 4. Jika QR-Code dapat terbaca dengan baik, maka akan muncul tampilan seperti gambar dibawah.
 
 <img src="https://github.com/userdw/IoT_Hidroponik/blob/main/images/Blynk_apps.jpg" height="400">
