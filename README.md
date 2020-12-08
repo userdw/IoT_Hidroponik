@@ -2,7 +2,7 @@
 
 IoT Hidroponik merupakan salah satu aplikasi IoT yang diterapkan pada sektor pertanian. Seperti yang kita ketahui, sejak lama metode hidroponik telah diterapkan di dunia terutama di kota-kota yang mempunyai lahan yang sempit. Di Indonesia, hidroponik menjadi solusi bagi seseorang yang menyukai cocok tanam namun memiliki keterbatasan lahan. Selain lahan yang sempit, kondisi tanah yang buruk dan cuaca yang kurang baik menjadi alasan lain orang beralih ke sistem hidroponik. Namun, perawatan yang rumit membuat sebagian orang enggan menggunakannya. Salah satu solusinya adalah dengan membuat monitoring hidroponik menggunakan sistem IoT.
 
-# Instalasi software Arduino IDE
+## Instalasi software Arduino IDE
 
 Repositori ini dibuat sebagai pelengkap dari kit IoT Hidroponik. Konfigurasi awal untuk menggunakan IoT Hidroponik adalah sebagai berikut:
 * Unduh software Arduino IDE pada link berikut ```https://www.arduino.cc/en/software```, pilih sesuai dengan OS yang digunakan pada laptop anda.
@@ -32,9 +32,8 @@ Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang men
 1. Unduh dan install aplikasi Blynk pada smartphone yang dapat diunduh pada aplikasi Google Play Store atau App Store,
 2. Buka aplikasi Blynk dan buat sebuah akun baru,
 3. Pilih gambar scan QR-Code dan scan gambar dibawah ini untuk menduplikasi aplikasi monitoring IoT Hidroponik,
-<p align="center">
+
 <img src="/images/Clone_blynk_project.jpeg" height="200">
-</p>
 
 4. Jika QR-Code dapat terbaca dengan baik, maka akan muncul tampilan seperti gambar dibawah,
 
@@ -58,5 +57,4 @@ char pass[] = "Your Password";
 6. Buka skrup pada kotak pelindung IoT Hidroponik dan hubungkan board ESP8266 dengan PC menggunakan kabel microUSB,
 7. Upload program tersebut, apabila tidak terjadi error, cek kembali status koneksi antara ESP8266 dengan aplikasi Blynk apakah sudah terhubung dengan baik atau tidak.
 
-Panduan lebih detail dapat mengikuti panduan yang berada dalam direktori ini [Blynk Documentation]
-(/14_Smart_Home_Automation/Blynk_Documentation/Instalasi_Blynk_pada_Smartphone.pdf)
+Panduan lebih detail dapat mengikuti panduan yang berada dalam direktori ini [Blynk Documentation](/14_Smart_Home_Automation/Blynk_Documentation/Instalasi_Blynk_pada_Smartphone.pdf)
