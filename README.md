@@ -2,6 +2,8 @@
 
 IoT Hidroponik merupakan salah satu aplikasi IoT yang diterapkan pada sektor pertanian. Seperti yang kita ketahui, sejak lama metode hidroponik telah diterapkan di dunia terutama di kota-kota yang mempunyai lahan yang sempit. Di Indonesia, hidroponik menjadi solusi bagi seseorang yang menyukai cocok tanam namun memiliki keterbatasan lahan. Selain lahan yang sempit, kondisi tanah yang buruk dan cuaca yang kurang baik menjadi alasan lain orang beralih ke sistem hidroponik. Namun, perawatan yang rumit membuat sebagian orang enggan menggunakannya. Salah satu solusinya adalah dengan membuat monitoring hidroponik menggunakan sistem IoT.
 
+# Instalasi software Arduino IDE
+
 Repositori ini dibuat sebagai pelengkap dari kit IoT Hidroponik. Konfigurasi awal untuk menggunakan IoT Hidroponik adalah sebagai berikut:
 * Unduh software Arduino IDE pada link berikut ```https://www.arduino.cc/en/software```, pilih sesuai dengan OS yang digunakan pada laptop anda.
 
@@ -34,17 +36,17 @@ Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang men
 <img src="/images/Clone_blynk_project.jpeg" height="200">
 </p>
 
-4. Jika QR-Code dapat terbaca dengan baik, maka akan muncul tampilan seperti gambar dibawah.
+4. Jika QR-Code dapat terbaca dengan baik, maka akan muncul tampilan seperti gambar dibawah,
 
 <img src="https://github.com/userdw/IoT_Hidroponik/blob/main/images/Blynk_apps.jpg" height="500">
 
 Pada halaman tersebut terdapat 4 komponen, antara lain:
-* Vertical slider, digunakan untuk mengontrol kadar nutrisi hidroponik
-* Level meter, digunakan untuk menampilkan kadar nutrisi hidroponik saat ini
-* Tombol, digunakan untuk menyalakan pompa nutrisi secara manual
-* LED, digunakan untuk indikator pompa nyala nutrisi
+* Vertical slider, digunakan untuk mengontrol kadar nutrisi hidroponik,
+* Level meter, digunakan untuk menampilkan kadar nutrisi hidroponik saat ini,
+* Tombol, digunakan untuk menyalakan pompa nutrisi secara manual,
+* LED, digunakan untuk indikator pompa nyala nutrisi,
 
-5. Buka software Arduino IDE pada laptop anda dan ubah 3 baris kode berikut ini
+5. Buka software Arduino IDE pada laptop anda dan ubah 3 baris kode berikut ini:
 ```
 // ubah sesuai dengan auth token pada aplikasi Blynk
 char auth[] = "Your Authentication Token";
@@ -52,3 +54,9 @@ char auth[] = "Your Authentication Token";
 char ssid[] = "Your SSID";
 char pass[] = "Your Password";
 ```
+
+6. Buka skrup pada kotak pelindung IoT Hidroponik dan hubungkan board ESP8266 dengan PC menggunakan kabel microUSB,
+7. Upload program tersebut, apabila tidak terjadi error, cek kembali status koneksi antara ESP8266 dengan aplikasi Blynk apakah sudah terhubung dengan baik atau tidak.
+
+Panduan lebih detail dapat mengikuti panduan yang berada dalam direktori ini [Blynk Documentation]
+(/14_Smart_Home_Automation/Blynk_Documentation/Instalasi_Blynk_pada_Smartphone.pdf)
