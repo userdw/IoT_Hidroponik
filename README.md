@@ -24,6 +24,7 @@ Repositori ini dibuat sebagai pelengkap dari kit IoT Hidroponik. Konfigurasi awa
 
 * Anda dapat mencoba untuk melakukan upload contoh program yang tersedia pada Arduino IDE untuk memastikan bahwa instalasi dan konfigurasi yang dilakukan sebelumnya telah berhasil.
 
+## Konfigurasi Awal
 
 Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang menghubungkan aplikasi Blynk dengan ESP8266:
 1. Unduh dan install aplikasi Blynk pada smartphone yang dapat diunduh pada aplikasi Google Play Store atau App Store,
@@ -38,8 +39,16 @@ Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang men
 <img src="https://github.com/userdw/IoT_Hidroponik/blob/main/images/Blynk_apps.jpg" height="500">
 
 Pada halaman tersebut terdapat 4 komponen, antara lain:
-* Vertical slider
-* Level meter
-* Tombol
-* LED
-   
+* Vertical slider, digunakan untuk mengontrol kadar nutrisi hidroponik
+* Level meter, digunakan untuk menampilkan kadar nutrisi hidroponik saat ini
+* Tombol, digunakan untuk menyalakan pompa nutrisi secara manual
+* LED, digunakan untuk indikator pompa nyala nutrisi
+
+5. Buka software Arduino IDE pada laptop anda dan ubah 3 baris kode berikut ini
+```
+// ubah sesuai dengan auth token pada aplikasi Blynk
+char auth[] = "Your Authentication Token";
+// ubah sesuai dengan SSID dan password jaringan WiFi anda
+char ssid[] = "Your SSID";
+char pass[] = "Your Password";
+```
