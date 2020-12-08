@@ -33,12 +33,10 @@ Lakukan langkah-langkah berikut sebagai konfigurasi awal IoT Hidroponik yang men
 <img src="/images/Clone_blynk_project.jpeg" height="200">
 </p>
 4. Jika QR-Code dapat terbaca dengan baik, maka akan muncul tampilan seperti gambar dibawah.
-<p align="center">
-<img src="/images/Blynk_apps.jpg" height="200">
-</p>
+<img src="https://github.com/userdw/Internet_of_Things_Maker_Kit/blob/master/images/Blynk_apps.jpg" height="700">
    Pada halaman tersebut terdapat beberapa komponen, antara lain:
-   * Vertical slider
-   * Level meter
-   * Tombol
-   * LED
+* Vertical slider
+* Level meter
+* Tombol
+* LED
    
